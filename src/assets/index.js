@@ -11,6 +11,8 @@ import EventIcon from './icons/event.png'
 import GameIcon from './icons/game.png'
 import GaleryIcon from './icons/galery.png'
 import VideosIcon from './icons/video.png'
+import MapIcon from './icons/map.png'
+import FileIcon from './icons/file.png'
 import Img1 from './images/photo1.jpg'
 import Img2 from './images/photo2.jpg'
 import Img3 from './images/photo3.jpg'
@@ -32,6 +34,8 @@ export {
     GameIcon,
     GaleryIcon,
     VideosIcon,
+    MapIcon,
+    FileIcon,
     Img1,
     Img2,
     Img3,

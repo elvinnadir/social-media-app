@@ -16,14 +16,15 @@ import RightBar from './components/rightBar/RightBar'
 import Home from './pages/home/Home'
 import Profile from './pages/profile/Profile'
 import { DarkModeContext } from './context/darkMode';
+import { AuthContext } from './context/authContext';
 
 
 const App = () => {
-  const currentUser = true
+  const { currentUser } = useContext(AuthContext)
+
+  const { darkMode } = useContext(DarkModeContext)
 
   const Layout = () => {
-    const { darkMode } = useContext(DarkModeContext)
-
     return (
       <div className={`theme-${darkMode ? "dark" : "light"}`}>
         <Navbar />
